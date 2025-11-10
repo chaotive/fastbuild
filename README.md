@@ -29,3 +29,12 @@ Improvements and bug fixes are gladly accepted. FASTBuild has been improved imme
 **Update documentation if appropriate** - For changes in behaviour, or addition of new features, please update the documentation.
 
 **Adhere to the coding style** - Please keep variable/function naming, whitespace style and indentation (4 space tabs) consistent. Consistency helps keep the code maintainable.
+
+## How to apply changes
+
+git apply ue_fbuild_0.99.diff
+
+## Local compile
+
+cd Code
+..\External\FASTBuild\0.99-original\FBuild.exe All-x64-Release -dist -clean

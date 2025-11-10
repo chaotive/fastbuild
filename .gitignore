@@ -78,3 +78,8 @@ Temporary Items
 # =========================
 
 .idea/
+
+# =========================
+# Exceptions
+# =========================
+!External/FASTBuild/0.99-original/*
